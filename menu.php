@@ -6,10 +6,10 @@ if (isset($_POST["submit"])) {
     include_once "dbh.inc.php";
 
     $table = $_POST["table"];
-    $burger = $_POST["burger"];
-    $ribs = $_POST["ribs"];
-    $fries = $_POST["fries"];
-    $drink = $_POST["drink"];
+    @$burger = $_POST["burger"];
+    @$ribs = $_POST["ribs"];
+    @$fries = $_POST["fries"];
+    @$drink = $_POST["drink"];
     $price = $_POST["price"];
     $time = $_POST["time"];
     $date = $_POST["date"];
