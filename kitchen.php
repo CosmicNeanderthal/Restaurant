@@ -56,20 +56,20 @@ include_once "inc/header.php";
                 let time = data[i].time;
                 
                 if (burger == "/" || burger == "" || burger == null) {
-					burger = " ";
-				}
+			burger = " ";
+		}
+			
+		if (ribs == "/" || ribs == "" || ribs == null) {
+			ribs = " ";
+		}
 				
-				if (ribs == "/" || ribs == "" || ribs == null) {
-					ribs = " ";
-				}
+		if (fries == "/" || fries == "" || fries == null) {
+			fries = " ";
+		}
 				
-				if (fries == "/" || fries == "" || fries == null) {
-					fries = " ";
-				}
-				
-				if (drink == "/" || drink == "" || drink == null) {
-					drink = " ";
-				}
+		if (drink == "/" || drink == "" || drink == null) {
+			drink = " ";
+		}
 
                 html += `
                     <tr>
